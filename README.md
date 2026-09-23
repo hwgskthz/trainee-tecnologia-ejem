@@ -9,7 +9,7 @@ Registrar minha evolução ao longo do trainee, documentando os conteúdos estud
 ## Conteúdos previstos
 
 - [x] Git e GitHub
-- [ ] HTML e CSS
+- [x] HTML e CSS
 - [ ] Python
 - [ ] JavaScript
 - [ ] SQL e Modelo Relacional
