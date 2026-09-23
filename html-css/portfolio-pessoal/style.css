@@ -1,0 +1,285 @@
+/* Cores reutilizadas em toda a página */
+:root {
+    --roxo: #7c3aed;
+    --roxo-escuro: #4c1d95;
+    --roxo-claro: #ede9fe;
+    --cinza-escuro: #272631;
+    --cinza: #686672;
+    --cinza-claro: #f4f3f6;
+    --branco: #ffffff;
+}
+
+/* Facilita o controle dos tamanhos dos elementos */
+* {
+    box-sizing: border-box;
+}
+
+/* Deixa a navegação entre as seções mais suave */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilo geral da página */
+body {
+    margin: 0;
+    background-color: var(--cinza-claro);
+    color: var(--cinza-escuro);
+    font-family: "Segoe UI", Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Evita que o menu esconda os títulos ao navegar */
+section {
+    padding: 70px 10%;
+    scroll-margin-top: 75px;
+}
+
+/* Cabeçalho */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 20px;
+    background-color: var(--cinza-escuro);
+}
+
+/* Organiza e centraliza os links do menu */
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+header nav a {
+    color: #c4b5fd;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+/* Mantém a mesma cor depois que o link é visitado */
+header nav a:visited {
+    color: #c4b5fd;
+}
+
+/* Muda a cor quando o mouse passa sobre o link */
+header nav a:hover {
+    color: var(--branco);
+}
+
+/* Apresentação inicial */
+#inicio {
+    min-height: calc(100vh - 64px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--roxo-claro);
+}
+
+.apresentacao {
+    max-width: 760px;
+}
+
+/* Pequena etiqueta acima do nome */
+.saudacao {
+    display: inline-block;
+    margin: 0;
+    padding: 7px 16px;
+    background-color: var(--roxo);
+    color: var(--branco);
+    border-radius: 999px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+#inicio h1 {
+    margin: 12px 0;
+    color: var(--roxo-escuro);
+    font-size: clamp(38px, 6vw, 58px);
+}
+
+#inicio h2 {
+    margin: 0;
+    font-size: clamp(19px, 3vw, 26px);
+}
+
+.resumo-inicial {
+    max-width: 600px;
+    margin: 20px auto;
+    color: var(--cinza);
+    font-size: 18px;
+}
+
+/* Botões da apresentação e do contato */
+#inicio a,
+#contato a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 22px;
+    background-color: var(--roxo);
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+#inicio a:visited,
+#contato a:visited {
+    color: var(--branco);
+}
+
+#inicio a:hover,
+#contato a:hover {
+    background-color: var(--roxo-escuro);
+    transform: translateY(-2px);
+}
+
+/* Seção Sobre mim */
+#sobre {
+    background-color: var(--branco);
+}
+
+.sobre-conteudo {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.sobre-texto {
+    max-width: 600px;
+}
+
+.sobre-texto h2 {
+    margin-top: 0;
+    color: var(--roxo-escuro);
+    font-size: 32px;
+}
+
+/* Destaque aplicado ao nome dentro do texto */
+.destaque {
+    color: var(--roxo);
+    font-weight: 900;
+}
+
+/* Foto redonda sem distorção */
+.foto-perfil {
+    width: 280px;
+    height: 280px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border: 6px solid var(--branco);
+    border-radius: 50%;
+    box-shadow: 0 8px 24px rgba(76, 29, 149, 0.25);
+}
+
+/* Títulos principais das demais seções */
+section > h2 {
+    margin-top: 0;
+    text-align: center;
+    color: var(--roxo-escuro);
+    font-size: 32px;
+}
+
+/* Centraliza os textos introdutórios */
+#tecnologias > p,
+#projetos > p,
+#interesses > p,
+#contato > p {
+    max-width: 720px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+/* Organização das listas de cartões */
+.lista-tecnologias,
+.lista-projetos,
+.lista-interesses {
+    max-width: 1100px;
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Aparência individual dos cartões */
+.tecnologia,
+.projeto,
+.interesse {
+    flex: 1 1 250px;
+    max-width: 310px;
+    padding: 24px;
+    background-color: var(--branco);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Pequeno movimento ao passar o mouse */
+.tecnologia:hover,
+.projeto:hover,
+.interesse:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(76, 29, 149, 0.18);
+}
+
+.tecnologia h3,
+.projeto h3,
+.interesse h3 {
+    color: var(--roxo-escuro);
+}
+
+/* Tecnologias utilizadas em cada projeto */
+.tecnologias-projeto {
+    color: var(--roxo);
+    font-weight: bold;
+}
+
+/* Alterna suavemente as cores das seções */
+#projetos {
+    background-color: var(--roxo-claro);
+}
+
+#contato {
+    background-color: var(--branco);
+    text-align: center;
+}
+
+/* Rodapé */
+footer {
+    padding: 20px;
+    background-color: var(--cinza-escuro);
+    color: var(--branco);
+    text-align: center;
+}
+
+/* Adapta a página para telas menores */
+@media (max-width: 700px) {
+    section {
+        padding: 55px 20px;
+    }
+
+    nav {
+        gap: 14px;
+    }
+
+    .sobre-conteudo {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .foto-perfil {
+        width: 210px;
+        height: 210px;
+    }
+}
