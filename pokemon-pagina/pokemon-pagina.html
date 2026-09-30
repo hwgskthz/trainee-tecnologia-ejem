@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de Pokémon</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <h1>Busca de Pokémon</h1>
+        <label for="pokemon">Nome do Pokémon:</label>
+        <input type="text" id="pokemon" placeholder="Ex.: pikachu">
+        <button id="buscar" onclick="buscarPokemon()">Buscar</button>
+
+        <p id="mensagem" role="status"></p>
+        <h2 id="nome"></h2>
+        <p id="tipos"></p>
+        <img id="imagem" alt="" hidden>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
