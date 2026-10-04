@@ -11,9 +11,9 @@ Registrar minha evolução ao longo do trainee, documentando os conteúdos estud
 - [x] Git e GitHub
 - [x] HTML e CSS
 - [x] Python
-- [ ] JavaScript
-- [ ] SQL e Modelo Relacional
-- [ ] React e Next.js
+- [x] JavaScript
+- [x] SQL e Modelo Relacional
+- [x] React e Next.js
 - [ ] Django
 - [ ] Chatbot
 
