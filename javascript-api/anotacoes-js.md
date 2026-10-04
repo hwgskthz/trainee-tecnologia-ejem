@@ -323,4 +323,4 @@ No CSS:
 
 ## Projeto prático
 
-[Abrir a página de busca de Pokémon](https://hwgskthz.github.io/trainee-tecnologia-ejem/javascript-api/)
+[Abrir a página de busca de Pokémon](https://hwgskthz.github.io/trainee-tecnologia-ejem/javascript-api/pagina-pokemon/)

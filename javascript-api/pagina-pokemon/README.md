@@ -6,7 +6,7 @@ O projeto utiliza HTML, CSS e JavaScript para consultar a PokéAPI e mostrar inf
 
 ## Acesse a página
 
-[Abrir a busca de Pokémon](https://hwgskthz.github.io/trainee-tecnologia-ejem/javascript-api/)
+[Abrir a busca de Pokémon](https://hwgskthz.github.io/trainee-tecnologia-ejem/javascript-api/pagina-pokemon/)
 
 ## Objetivo da atividade
 
