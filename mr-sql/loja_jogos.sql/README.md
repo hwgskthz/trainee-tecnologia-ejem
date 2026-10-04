@@ -49,11 +49,11 @@ As imagens e os links dos modelos serão adicionados nesta seção.
 
 ![Modelo conceitual](imagens/modelo_conceitual.png)
 
-![Abrir modelo conceitual no brModelo](https://app.brmodeloweb.com/publicview/6ac2aa281f3f1c32b7d27390)
+[Abrir modelo conceitual no brModelo](https://app.brmodeloweb.com/publicview/6ac2aa281f3f1c32b7d27390)
 
 ![Modelo lógico](imagens/modelo_logico.png)
 
-![Abrir modelo lógico no brModelo](https://app.brmodeloweb.com/publicview/6ac2aa841f3f1c32b7d2739a)
+[Abrir modelo lógico no brModelo](https://app.brmodeloweb.com/publicview/6ac2aa841f3f1c32b7d2739a)
  
 ## Exercícios realizados
 
