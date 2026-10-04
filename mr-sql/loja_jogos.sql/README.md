@@ -91,13 +91,36 @@ Essa consulta conta pedidos, não a quantidade de unidades vendidas.
 
 ## Resultados
 
-As imagens dos resultados das consultas serão adicionadas nesta seção.
+### Tabela de clientes
 
-![Tabela Clientes](imagens/tabela_clientes.png)
-![Tabela Pedidos](imagens/tabela_pedidos.png)
-![Tabela Produtos](imagens/tabela_produtos.png)
-![Tabela ex.2](imagens/tabela_ex2.png)
-![Tabela ex.3](imagens/tabela_ex3.png)
-![Tabela ex.4](imagens/tabela_ex4.png)
-![Tabela ex.5](imagens/tabela_ex5.png)
-![Tabela ex.6](imagens/tabela_ex6.png)
+![Tabela de clientes](imagens/tabela_clientes.png)
+
+### Tabela de produtos
+
+![Tabela de produtos](imagens/tabela_produtos.png)
+
+### Tabela de pedidos
+
+![Tabela de pedidos](imagens/tabela_pedidos.png)
+
+---
+
+### Exercício 2 — Produtos RPG
+
+![Resultado do exercício 2](imagens/tabela_ex2.png)
+
+### Exercício 3 — Clientes e pedidos
+
+![Resultado do exercício 3](imagens/tabela_ex3.png)
+
+### Exercício 4 — Total gasto por cliente
+
+![Resultado do exercício 4](imagens/tabela_ex4.png)
+
+### Exercício 5 — Média de preço por categoria
+
+![Resultado do exercício 5](imagens/tabela_ex5.png)
+
+### Exercício 6 — Quantidade de pedidos por produto
+
+![Resultado do exercício 6](imagens/tabela_ex6.png)
