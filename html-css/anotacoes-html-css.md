@@ -2,6 +2,9 @@
 
 Anotações da aula de HTML e CSS e do desenvolvimento do portfólio pessoal.
 
+## Projeto desenvolvido
+[Acesse meu portfólio publicado](https://hwgskthz.github.io/trainee-tecnologia-ejem/html-css/portfolio-pessoal/)
+
 ---
 
 ## 1. Papel de cada tecnologia
