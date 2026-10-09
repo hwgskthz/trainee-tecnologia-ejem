@@ -2,9 +2,7 @@
 
 Site institucional de um restaurante fictício, desenvolvido durante o Trainee de Tecnologia da EJEM, na atividade de React e Next.js.
 
-## Acesse o site
-
-Link em breve.
+[Acesse o site Sabor da Casa](https://restaurante-sabor-da-casa.vercel.app/)
 
 ## Sobre o projeto
 
@@ -25,26 +23,6 @@ O site apresenta o restaurante Sabor da Casa, com sua história, cardápio, loca
 - Next.js
 - CSS
 - Lucide React
-
-##  Como executar
-
-Com o Node.js instalado, abra a pasta do projeto no VS Code e execute:
-
-```bash
-npm install
-npm run dev
-```
-
-Se o PowerShell bloquear o comando npm, utilize:
-
-```powershell
-npm.cmd install
-npm.cmd run dev
-```
-
-Depois, abra o endereço indicado no terminal, normalmente:
-
-http://localhost:3000
 
 ## Observação
 
