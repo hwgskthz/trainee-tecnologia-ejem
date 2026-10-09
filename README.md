@@ -14,8 +14,8 @@ Registrar minha evolução ao longo do trainee, documentando os conteúdos estud
 - [x] JavaScript
 - [x] SQL e Modelo Relacional
 - [x] React e Next.js
-- [ ] Django
-- [ ] Chatbot
+- [x] Django
+- [x] Chatbot
 
 ## Organização
 
