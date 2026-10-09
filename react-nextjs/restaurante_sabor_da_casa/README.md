@@ -2,15 +2,15 @@
 
 Site institucional de um restaurante fictício, desenvolvido durante o Trainee de Tecnologia da EJEM, na atividade de React e Next.js.
 
-## 🔗 Acesse o site
+## Acesse o site
 
 Link em breve.
 
-## 📋 Sobre o projeto
+## Sobre o projeto
 
 O site apresenta o restaurante Sabor da Casa, com sua história, cardápio, localização, horário de funcionamento e contato.
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 - Navegação entre as seções da página.
 - Cardápio com nome, descrição e preço dos pratos.
@@ -18,7 +18,7 @@ O site apresenta o restaurante Sabor da Casa, com sua história, cardápio, loca
 - Layout responsivo para computadores e celulares.
 - Animações e efeitos ao passar o mouse.
 
-## 💻 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - JavaScript
 - React
@@ -26,7 +26,7 @@ O site apresenta o restaurante Sabor da Casa, com sua história, cardápio, loca
 - CSS
 - Lucide React
 
-## ▶️ Como executar
+##  Como executar
 
 Com o Node.js instalado, abra a pasta do projeto no VS Code e execute:
 
@@ -46,6 +46,6 @@ Depois, abra o endereço indicado no terminal, normalmente:
 
 http://localhost:3000
 
-## 📝 Observação
+## Observação
 
 O restaurante, o endereço e o contato são fictícios.
